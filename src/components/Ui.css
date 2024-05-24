@@ -1,0 +1,148 @@
+.container {
+    width: 100vw;
+    height: 35vh;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    width: 30vw;
+    padding: 1.2rem;
+    margin: 1.2rem;
+    font-size: 1rem;
+}
+
+
+.button-4 {
+width: 20vw;
+height: 7vh;
+appearance: none;
+background-color: #FAFBFC;
+border: 1px solid rgba(27, 31, 35, 0.15);
+border-radius: 6px;
+box-shadow: rgba(27, 31, 35, 0.04) 0 1px 0, rgba(255, 255, 255, 0.25) 0 1px 0 inset;
+box-sizing: border-box;
+color: #24292E;
+cursor: pointer;
+display: inline-block;
+font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+font-size: 22px;
+font-weight: 500;
+line-height: 1.3rem;
+list-style: none;
+padding: 6px 16px;
+position: relative;
+transition: background-color 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+user-select: none;
+-webkit-user-select: none;
+touch-action: manipulation;
+vertical-align: middle;
+white-space: nowrap;
+word-wrap: break-word;
+}
+
+.button-4:hover {
+background-color: #F3F4F6;
+text-decoration: none;
+transition-duration: 0.1s;
+}
+
+.button-4:disabled {
+background-color: #FAFBFC;
+border-color: rgba(27, 31, 35, 0.15);
+color: #959DA5;
+cursor: default;
+}
+
+.button-4:active {
+background-color: #EDEFF2;
+box-shadow: rgba(225, 228, 232, 0.2) 0 1px 0 inset;
+transition: none 0s;
+}
+
+.button-4:focus {
+outline: 1px transparent;
+}
+
+.button-4:before {
+display: none;
+}
+
+.button-4:-webkit-details-marker {
+display: none;
+}
+
+
+.color-change-2x {
+    -webkit-animation: color-change-2x 2s linear infinite alternate both;
+    animation: color-change-2x 2s linear infinite alternate both;
+}
+
+.tracking-in-expand-fwd {
+    -webkit-animation: tracking-in-expand-fwd 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+    animation: tracking-in-expand-fwd 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+
+@-webkit-keyframes color-change-2x {
+    0% {
+            background: #eacb19e8;
+    }
+
+    100% {
+            background: #f7bc3c;
+    }
+}
+
+@keyframes color-change-2x {
+    0% {
+            background: #eacb19e8;
+    }
+
+    100% {
+            background: #f7bc3c;
+    }
+}
+
+
+@-webkit-keyframes tracking-in-expand-fwd {
+    0% {
+            letter-spacing: -0.5em;
+            -webkit-transform: translateZ(-700px);
+            transform: translateZ(-700px);
+            opacity: 0;
+    }
+
+    40% {
+            opacity: 0.6;
+    }
+
+    100% {
+            -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+            opacity: 1;
+    }
+}
+
+@keyframes tracking-in-expand-fwd {
+    0% {
+            letter-spacing: -0.5em;
+            -webkit-transform: translateZ(-700px);
+            transform: translateZ(-700px);
+            opacity: 0;
+    }
+
+    40% {
+            opacity: 0.6;
+    }
+
+    100% {
+            -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+            opacity: 1;
+    }
+}
